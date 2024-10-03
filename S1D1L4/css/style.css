@@ -1,0 +1,220 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width:400px;
+    margin-inline:auto;
+    margin:20px;
+    background-image:url(../img/sfondo.png);
+    object-fit: cover;
+    max-width: 100%;
+
+}
+
+/* HEADER */
+header {
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    border:solid 0px;
+    border-radius:2px;
+    background-color: rgb(105, 174, 231);
+    margin-bottom: 20px;
+
+}
+header img {
+    text-align: center;
+    width:170px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+header ul {
+    list-style-type: none;
+}
+header p {
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+nav ul li a {
+    margin: 14px;
+}
+li a {
+    color:white;
+}
+.Sopra {
+    padding:20px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 2px;
+}
+/* MAIN */
+main {
+    display:block;
+    text-align: left;
+    margin-left: 10px;
+    border:solid 1px;
+    border-radius: 2px;
+    background-color: white;
+    padding-left:10px;
+    padding-right: 10px;
+    
+}
+main article h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:white;
+}
+h1{
+    padding: 10px;
+
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+article p i {
+    color:rgb(17, 12, 12);
+    font-size:medium;
+    opacity: 40%;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+.viola {
+    color:rgb(129, 0, 129);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+article p {
+    padding-top: 2px;
+    padding-bottom:16px;
+}
+article ul li {
+    padding:10px;
+    margin-left:15px;
+}
+ol {
+    padding:10px;
+    margin-left:15px;
+}
+ol li {
+    padding-bottom: 8px;
+}
+caption {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+/* TABELLE */
+table{
+    border-bottom: solid blue;
+}
+thead th {
+    background-color: blue;
+    height: 10vh;
+    width: 5%;
+    text-align: center;
+    padding-top:20px;
+    color:white;
+    border:solid white;
+ }
+ tr {
+    height: 10vh;
+    width: 5%;
+    padding-top: 5px;
+    text-align:center;
+
+ }
+ .celestino {
+    background-color: rgb(133, 182, 197);
+    height: 10vh;
+    width: 5%;
+    text-align:center;
+    border-top:solid rgb(61, 160, 160);
+    border-bottom: solid rgb(61, 160, 160) ;
+ }
+.bello {
+    padding-top: 25px;
+ }
+ iframe {
+    width: 100%;
+    border-radius: 8%;
+    padding-bottom: 30px;
+ }
+ section {
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    border:solid 0px;
+    border-radius:2px;
+    background-color: rgb(118, 223, 255);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 12px;
+ }
+ section p {
+    text-align: left;
+ }
+ button {
+    background-color: rgb(79, 4, 255);
+    color:white;
+ }
+ input {
+    border-radius: 1px;
+    box-shadow: 0px 0px 2px;
+ }
+
+
+
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    border:solid 0px;
+    border-radius:2px;
+
+}
+aside h2 {
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal
+}
+aside div {
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    border:solid 0px;
+    border-radius:2px;
+    background-color: rgb(118, 223, 255);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.tada {
+    text-align: right; 
+} 
+ a,p {
+    display:block;
+    text-align: left;
+    padding-left: 9px;
+}
+/* FOOTER */
